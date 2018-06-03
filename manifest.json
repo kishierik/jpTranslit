@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "JPTranslit",
+  "description": "日本語を勉強する為に拡張機能",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icons/icon.png",
+   "default_popup": "html/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "<all_urls>",
+    "contextMenus"
+   ],
+    "background": {
+        "scripts": ["js/main.js"]
+    }
+}
